@@ -25,11 +25,13 @@
     "build": "ember build",
     "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
     "start": "ember serve",
-    "test": "ember try:each",
-    "postinstall": "bower install"
+    "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.6.0"
+    "broccoli-funnel": "^2.0.1",
+    "broccoli-merge-trees": "^3.0.0",
+    "ember-cli-babel": "^6.6.0",
+    "jsoneditor": "^5.19.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
